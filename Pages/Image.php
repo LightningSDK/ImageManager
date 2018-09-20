@@ -44,13 +44,15 @@ class Image extends API {
             }
 
             if (empty($sourceFile)) {
-                throw new Exception('Invalid files');
+                throw new Exception('Invalid file');
             }
 
             // If the file doesn't exist, create it.
             if (file_exists($sourceFile)) {
                 // Make sure the directory exists
-                mkdir(dirname($fileName), 0775, true);
+                if (!file_exists(dirname($fileName))) {
+                    mkdir(dirname($fileName), 0775, true);
+                }
 
                 // Save the resized image
                 $image = LightningImage::createFromString(file_get_contents($sourceFile));
