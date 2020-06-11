@@ -3,10 +3,10 @@
 namespace lightningsdk\imagemanager\Pages;
 
 use Exception;
-use Lightning\Tools\Configuration;
-use Lightning\Tools\Request;
-use Lightning\View\API;
-use Lightning\Tools\Image as LightningImage;
+use lightningsdk\core\Tools\Configuration;
+use lightningsdk\core\Tools\Request;
+use lightningsdk\core\View\API;
+use lightningsdk\core\Tools\Image as LightningImage;
 
 class Image extends API {
 
