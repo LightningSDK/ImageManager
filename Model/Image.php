@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\ImageManager\Model;
+namespace lightningsdk\imagemanager\Model;
 
 class Image {
     public static function getImage($imageUrl, $size, $format) {

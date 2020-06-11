@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\ImageManager\Pages;
+namespace lightningsdk\imagemanager\Pages;
 
 use Exception;
 use Lightning\Tools\Configuration;

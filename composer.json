@@ -1,0 +1,9 @@
+{
+  "name": "lightningsdk/imagemanager",
+  "type": "library",
+  "description": "Adds image rescaling and caching.",
+  "version": "1.0.0",
+  "require": {
+    "lightningsdk/core": "^1.0"
+  }
+}

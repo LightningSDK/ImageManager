@@ -3,7 +3,7 @@
 return [
     'routes' => [
         'static' => [
-            'image' => \Modules\ImageManager\Pages\Image::class,
+            'image' => \lightningsdk\imagemanager\Pages\Image::class,
         ],
     ],
     'modules' => [
