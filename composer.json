@@ -2,8 +2,5 @@
   "name": "lightningsdk/imagemanager",
   "type": "library",
   "description": "Adds image rescaling and caching.",
-  "version": "1.0.0",
-  "require": {
-    "lightningsdk/core": "dev-php7.3"
-  }
+  "version": "1.0.0"
 }
